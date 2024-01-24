@@ -25,6 +25,7 @@ def combine_dictionaries(dict_a, dict_b):
     # Combine values for common keys in the new dictionary
     for key in common_keys:
         combined_dict[key] = dict_a[key] + dict_b[key]
+#https://stackoverflow.com/questions/11157704/python-intersection-between-a-list-and-keys-of-a-dictionary
 
     return combined_dict
 
